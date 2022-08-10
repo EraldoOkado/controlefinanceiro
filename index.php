@@ -1,5 +1,5 @@
 <?php
-    include("config/conexao.php");
+    include("config/logado.php");
 
     if(isset($_POST['salvar'])){
         
@@ -85,7 +85,7 @@
                         
                     } elseif ($total < 0) {
                         
-                        echo '<p class="expense">R$ -'.number_format($total,2,",",".").'</p>';
+                        echo '<p class="expense">R$ '.number_format($total,2,",",".").'</p>';
                     }
 
                 ?>
