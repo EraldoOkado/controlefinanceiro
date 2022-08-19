@@ -20,7 +20,7 @@
     // Seleciona os últimos 5 ganhadores
     try {
 
-		$importaExtrato = $conexao->prepare("SELECT * from extrato");		
+		$importaExtrato = $conexao->prepare("SELECT * from extrato ORDER BY data ASC");		
 		$importaExtrato->execute();
 		$importaExtrato = $importaExtrato->fetchAll();
 

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans' !important;
+}
+
 /* Header */
 header {
     background: var(--dark-green);
@@ -131,7 +137,6 @@ button:hover {
     justify-content: space-between;
 }
 .card p {
-    font-weight: normal;
     font-size: 2rem;
     line-height: 3rem;
 
@@ -147,6 +152,10 @@ button:hover {
     background: var(--normal-red);
 }
 
+.ofuscar {
+    color: black !important;
+    cursor: pointer;
+}
 
 /* Table */
 #transaction {
@@ -205,6 +214,12 @@ td.description {
     color: var(--money-red);
 }
 
+.categoria {
+    width: 100%;
+    padding: 8px;
+    border: none;
+}
+
 
 
 img.remove {
@@ -220,4 +235,10 @@ footer {
 
     padding: 4rem 0 2rem;
     text-align: center;
+}
+
+.modal {
+
+    background: #00000047 !important;
+
 }

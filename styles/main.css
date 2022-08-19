@@ -61,6 +61,19 @@ html {
 }
 
 .container {
-    width: min(90vw, 800px);
+    width: min(90vw, 900px);
     margin: 3rem auto 0;
+}
+
+.card i {
+    font-size: 30px !important;
+}
+
+a i {
+    font-size: 30px;
+    color: red;
+}
+
+.far {
+    font-size: 18px !important;
 }
